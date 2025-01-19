@@ -76,4 +76,37 @@ const images = [
   },
 ];
 
+const galleryContainer = document.querySelector("ul.gallery");
 
+const galleryMarkup = images
+  .map(({ preview, original, description }) => {
+    return `
+      <li class="gallery-item">
+        <a class="gallery-link" href="${original}">
+          <img
+            class="gallery-image"
+            src="${preview}"
+            data-source="${original}"
+            alt="${description}"
+          />
+        </a>
+      </li>
+    `;
+  })
+  .join("");
+
+galleryContainer.innerHTML = galleryMarkup;
+
+galleryContainer.addEventListener("click", (event) => {
+  event.preventDefault();
+
+  if (event.target.nodeName !== "IMG") return;
+
+  const largeImageURL = event.target.dataset.source;
+
+  const instance = basicLightbox.create(`
+    <img src="${largeImageURL}" alt="${event.target.alt}" />
+  `);
+
+  instance.show();
+});
