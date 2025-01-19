@@ -10,3 +10,5 @@
 
 */
 `use strict`;
+const ul = document.querySelector(".ul");
+console.log(ul.firstChild);
