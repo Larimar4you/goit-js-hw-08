@@ -46,7 +46,7 @@ goit-js-hw-08/
 
 ## Live Demo:
 
-GitHub Pages
+[GitHub Pages](https://larimar4you.github.io/goit-js-hw-08/)
 
 ### Автор:
 
