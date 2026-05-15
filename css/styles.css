@@ -1,49 +1,57 @@
-/* Скидання стилів */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .gallery {
-    margin: 24px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    max-width: 1128px;
+  max-width: 1128px;
+  margin: 24px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .gallery-link {
-    display: block;
-    width: 360px;
-    height: 200px;
-    overflow: hidden;
-    transition: transform 500ms ease-in-out, box-shadow 500ms ease-in-out;
-    border-radius: 8px; 
-    text-decoration: none;
+  display: block;
+
+  overflow: hidden;
+
+  transition: transform 250ms ease;
 }
 
 .gallery-link:hover {
-    transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .gallery-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 200px;
+
+  object-fit: cover;
 }
 
 
