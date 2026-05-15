@@ -37,13 +37,13 @@ goit-js-hw-08/
 ├── index.html
 └── README.md
 
-###Запуск проєкту:
+##Запуск проєкту:
 
 1.Клонувати репозиторій: git clone https://github.com/Larimar4you/goit-js-hw-08.git
 2.Відкрити проєкт у VS Code
 3.Запустити через Live Server
 
-###Live Demo:
+##Live Demo:
 GitHub Pages
 
 ###Автор:
