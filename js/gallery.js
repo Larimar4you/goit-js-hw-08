@@ -1,7 +1,3 @@
-/* #завдання */
-/*
-Створи галерею з можливістю кліку по її елементах і перегляду повнорозмірного зображення в модальному вікні.
-*/
 `use strict`;
 const images = [
   {
@@ -93,7 +89,7 @@ galleryContainer.innerHTML = galleryMarkup;
 galleryContainer.addEventListener("click", (event) => {
   event.preventDefault();
 
-  if (event.target.nodeName !== "IMG") return;
+  if (!event.target.classList.contains("gallery-image")) return;
 
   const largeImageURL = event.target.dataset.source;
 
