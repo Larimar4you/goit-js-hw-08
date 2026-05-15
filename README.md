@@ -47,4 +47,4 @@ goit-js-hw-08/
 GitHub Pages
 
 ###Автор:
-GitHub: Larimar4you GitHub
+GitHub: Lara Kosta
