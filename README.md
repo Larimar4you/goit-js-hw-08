@@ -1,56 +1,80 @@
-# Image Gallery
+# Lightbox Gallery
 
-Простий застосунок галереї зображень, створений на JavaScript з використанням бібліотеки basicLightbox.
+A simple interactive image gallery built with HTML, CSS, and JavaScript.
+The gallery is generated dynamically from a JavaScript array and uses **basicLightbox** to display full-size images in a modal window.
 
-## Опис:
+## Live Demo
 
-Проєкт реалізує динамічну галерею зображень із можливістю відкриття повнорозмірного зображення у модальному вікні при кліку на картку.
+[View live project](https://larimar4you.github.io/lightbox-gallery/)
 
-Галерея створюється динамічно з масиву об’єктів за допомогою JavaScript.
+## Repository
 
-## Функціонал:
+[GitHub repository](https://github.com/Larimar4you/lightbox-gallery)
 
-- динамічне створення елементів галереї
-- відкриття великого зображення в модальному вікні
-- використання делегування подій
-- закриття модального вікна
-- адаптивна галерея з CSS-стилізацією
+## Preview
 
-## Технології:
+[Open preview image](./lightbox-gallery-preview.png)
+
+## Features
+
+- Dynamic gallery rendering from an array of image objects
+- Modal image preview on click
+- Full-size image opening with basicLightbox
+- Event delegation for gallery clicks
+- Responsive gallery layout
+- Clean HTML, CSS, and JavaScript structure
+
+## Tech Stack
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript ES6+
 - basicLightbox
+- GitHub Pages
 
-## Структура проєкту:
+## Project Structure
 
-```text
-goit-js-hw-08/
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   └── gallery.js
-│
-├── index.html
-└── README.md
+```txt
+lightbox-gallery/
+├─ css/
+│  └─ styles.css
+├─ js/
+│  └─ gallery.js
+├─ index.html
+├─ README.md
+└─ preview.png
 ```
 
-## Запуск проєкту:
+## Getting Started
 
-1.Клонувати репозиторій: git clone https://github.com/Larimar4you/goit-js-hw-08.git
-2.Відкрити проєкт у VS Code
-3.Запустити через Live Server
+### 1. Clone the repository
 
-## Live Demo:
+```bash
+git clone https://github.com/Larimar4you/lightbox-gallery.git
+cd lightbox-gallery
+```
 
-[GitHub Pages](https://larimar4you.github.io/goit-js-hw-08/)
+### 2. Open the project
 
-### Автор:
+Open the project in VS Code.
 
-GitHub: Lara Kosta
+### 3. Run locally
+
+Use Live Server or open `index.html` directly in the browser.
+
+## What I Practiced
+
+- DOM manipulation
+- Rendering markup from JavaScript data
+- Working with arrays of objects
+- Event delegation
+- Using an external lightbox library
+- Creating a responsive image gallery
+- Publishing a project with GitHub Pages
+
+## Author
+
+Created by Lara Kosta — Fullstack Developer in progress with a focus on JavaScript, React, Backend development, and AI-powered automation.
 
 ```
 
